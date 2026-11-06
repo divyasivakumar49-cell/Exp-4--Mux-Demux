@@ -147,7 +147,9 @@ The 2:1 Multiplexer and 1:2 Demultiplexer were realized using Verilog HDL:
 The design was compiled and simulated using Synopsys VCS, and the functionality was verified using DVE waveform analysis, matching the expected truth table.
 
 ## Output
-<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/413d8458-7471-492d-81ff-6a9c00483c33" />
+![Uploading WhatsApp Image 2026-11-06 at 7.15.32 PM.jpeg…]()
+
+
 
 
 
