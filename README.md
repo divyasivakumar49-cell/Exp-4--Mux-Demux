@@ -23,7 +23,6 @@ module mux2to1 (
 );
     assign Y = (~S & A) | (S & B);
 endmodule
-
  
 module demux1to2 (
     input  wire D,      // data input
@@ -34,8 +33,6 @@ module demux1to2 (
     assign Y0 = (~S) & D;
     assign Y1 = S & D;
 endmodule
-
-```
 ## **Testbench Program
 module tb4;
     reg  A, B, S, D;
@@ -147,7 +144,10 @@ The 2:1 Multiplexer and 1:2 Demultiplexer were realized using Verilog HDL:
 The design was compiled and simulated using Synopsys VCS, and the functionality was verified using DVE waveform analysis, matching the expected truth table.
 
 ## Output
-<img width="1600" height="900" alt="WhatsApp Image 2026-11-06 at 7 15 32 PM" src="https://github.com/user-attachments/assets/38bb87e4-2a7b-4e06-88a9-fc50381b50e1" />
+<img width="1317" height="721" alt="Screenshot 2026-11-07 184709" src="https://github.com/user-attachments/assets/6b008065-e0d9-4069-ba44-e82a219371ba" />
+
+
+<img width="1306" height="715" alt="Screenshot 2026-11-07 184746" src="https://github.com/user-attachments/assets/4c712963-4ae3-4ab7-80a9-f1b9c9432336" />
 
 
 
